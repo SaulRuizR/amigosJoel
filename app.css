@@ -150,7 +150,7 @@ body{
 }
 .itinerario{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
 }
@@ -177,7 +177,8 @@ body{
     font-family: var(--fuenteParrafo);
     text-align: center;
     font-style: italic;
-    margin: 10px 0;
+    margin: 10px auto;
+    width: 98%;
 }
 .boton{
     display: flex;
